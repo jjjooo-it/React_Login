@@ -1,0 +1,35 @@
+body {
+  background-color: ivory;
+  margin: 0px;
+}
+.main-profile-container {
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  background-color: white;
+  width: 500px;
+  height: 250px;
+  margin: auto;
+}
+
+.main-profile-before {
+  text-align: center;
+  p {
+    padding-top: 40px;
+    color: gray;
+  }
+  .main-profile-before-login-btn {
+    border: none;
+    border-radius: 20px;
+    background-color: firebrick;
+    color: white;
+    width: 300px;
+    height: 45px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .main-profile-before-signup-btn {
+    border: none;
+    background-color: white;
+  }
+}

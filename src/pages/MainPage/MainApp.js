@@ -1,11 +1,11 @@
-import MainHeader from "./MainHeader";
-import MainProfile from "./MainProfile";
+import Header from "../../components/Header";
+import MainProfile_BF from "./MainProfile_BF";
 
 function MainPage() {
   return (
     <div>
-      <MainHeader />
-      <MainProfile />
+      <Header />
+      <MainProfile_BF />
     </div>
   );
 }
