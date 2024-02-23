@@ -1,7 +1,7 @@
 //메인페이지의 '로그인 전' 프로필 컨포넌트
 
 import { useRecoilValue } from "recoil";
-import { Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import "../../styles/MainPage/MainProfile_BF.scss";
 
 function MainProfile_BF() {

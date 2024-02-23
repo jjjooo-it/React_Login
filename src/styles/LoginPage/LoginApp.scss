@@ -1,0 +1,117 @@
+.login-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  input {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: white;
+  }
+  input:focus {
+    outline: none;
+  }
+  button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: burlywood;
+  }
+  .login-bottom {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    input {
+      display: none;
+    }
+    //체크박스
+    //https://www.flaticon.com/free-icon/check_1828640?k=1708670162301&sign-up=google
+    //디폴트
+    input[type="checkbox"] + label {
+      margin-top: 12px;
+      margin-right: 60px;
+      cursor: pointer;
+      padding-left: 26px;
+      background-image: url("../../../public/assets/checkbox.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    //체크시
+    input[type="checkbox"]:checked + label {
+      background-image: url("../../../public/assets/checkbox-active.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    button {
+      width: 100px;
+      height: 10px;
+      border: none;
+      background-color: ivory;
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+}
+
+button {
+  width: 120px;
+  height: 10px;
+  border: none;
+  background-color: ivory;
+  font-weight: normal;
+  font-size: 14px;
+}
+label {
+  font-size: 14px;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  margin-top: 5px;
+  background-color: white;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: burlywood;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.login-social-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    color: rgb(232, 229, 229);
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  .social-account-img {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 //헤더 컨포넌트
 
 import styled from "styled-components";
+import { useNavigate } from "react-router";
 
 const HeaderDiv = styled.div`
   display: flex;
@@ -16,6 +17,10 @@ const Img = styled.img`
   margin: auto;
 `;
 function Header() {
+  const navigate = useNavigate();
+  const gotoHome = () => {
+    navigate("/");
+  };
   return (
     <div>
       <Img
@@ -23,7 +28,7 @@ function Header() {
         alt="header-img"
       />
       <HeaderDiv>
-        <p>meraki</p>
+        <p onClick={gotoHome}>meraki</p>
       </HeaderDiv>
     </div>
   );

@@ -1,6 +1,7 @@
 body {
   background-color: ivory;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 .main-profile-container {
   border: solid 1px lightgray;
@@ -31,5 +32,8 @@ body {
   .main-profile-before-signup-btn {
     border: none;
     background-color: white;
+    width: 100px;
+    height: 10px;
+    color: gray;
   }
 }
